@@ -1,7 +1,18 @@
 {
   "Deploy": {
     "Project": {
-      "Workspaces": []
+      "Name": "louies intuitive cow",
+      "Alias": "louies-intuitive-cow",
+      "Id": "1e993768-fd61-401d-a09c-dcf6aed5df40",
+      "TrialExpireDate": "2024-09-12T11:48:08.0000000",
+      "Workspaces": [
+        {
+          "Id": "b71508df-fae6-46ea-9b7a-4784c56b0fdf",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://louies-intuitive-cow.euwest01.umbraco.io"
+        }
+      ]
     },
     "Settings": {}
   },
