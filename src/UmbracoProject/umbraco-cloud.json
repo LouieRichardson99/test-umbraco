@@ -7,6 +7,12 @@
       "TrialExpireDate": "2024-09-12T11:48:08.0000000",
       "Workspaces": [
         {
+          "Id": "95536450-90a5-4895-8b3c-07cd35327b6b",
+          "Name": "Development",
+          "Type": "development",
+          "Url": "https://dev-louies-intuitive-cow.euwest01.umbraco.io"
+        },
+        {
           "Id": "b71508df-fae6-46ea-9b7a-4784c56b0fdf",
           "Name": "Live",
           "Type": "live",
