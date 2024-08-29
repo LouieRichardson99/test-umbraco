@@ -1,0 +1,82 @@
+{
+  "Name": "Home Page",
+  "Alias": "homePage",
+  "DefaultTemplate": "umb://template/e4a9efc32c114ccdb6a678ad6ba5ec24",
+  "AllowedTemplates": [
+    "umb://template/e4a9efc32c114ccdb6a678ad6ba5ec24"
+  ],
+  "HistoryCleanup": {},
+  "Icon": "icon-home",
+  "Thumbnail": "folder.png",
+  "Permissions": {
+    "AllowedAtRoot": true,
+    "AllowedChildContentTypes": [
+      "umb://document-type/6fc236086e8342bd9734afe4dde98095"
+    ]
+  },
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "14f81b39-b7af-4e45-946b-6b97d6ae3567",
+      "Name": "Footer",
+      "SortOrder": 1,
+      "Alias": "footer",
+      "PropertyTypes": [
+        {
+          "Key": "64f6ff65-f8cc-4644-8bb4-3695c6694e3a",
+          "Alias": "companyPhone",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Company Phone",
+          "SortOrder": 1
+        },
+        {
+          "Key": "9b7d7d73-5fcd-490c-a91c-22d3649114f3",
+          "Alias": "companyAddress",
+          "DataType": "umb://data-type/9d6ea576810f4c88a829627c95b1d173",
+          "Name": "Company Address"
+        }
+      ]
+    },
+    {
+      "Key": "8a8b079a-2306-485c-9580-a7bd9e39403a",
+      "Name": "Header",
+      "Alias": "header",
+      "PropertyTypes": [
+        {
+          "Key": "b19252b9-c783-47ef-a7a1-ad4c30152f64",
+          "Alias": "companyName",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Company Name"
+        },
+        {
+          "Key": "bd7d3d5a-ecdf-428c-82c5-bde4d5856b26",
+          "Alias": "highlightText",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Highlight Text",
+          "SortOrder": 1
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/5b18003a261b4f129c3c5862caa8e362",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/9d6ea576810f4c88a829627c95b1d173",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://document-type/6fc236086e8342bd9734afe4dde98095"
+    },
+    {
+      "Udi": "umb://template/e4a9efc32c114ccdb6a678ad6ba5ec24",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "14.1.1"
+}
