@@ -1,0 +1,12 @@
+{
+  "Name": "Home Page - Company Address - Text Area Property Editor UI",
+  "EditorAlias": "Umbraco.TextArea",
+  "EditorUiAlias": "Umb.PropertyEditorUi.TextArea",
+  "Configuration": {
+    "rows": 10
+  },
+  "Udi": "umb://data-type/9d6ea576810f4c88a829627c95b1d173",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "14.1.1"
+}
