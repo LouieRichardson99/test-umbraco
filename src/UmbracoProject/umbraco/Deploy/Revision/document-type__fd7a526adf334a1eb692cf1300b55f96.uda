@@ -6,7 +6,7 @@
     "umb://template/050c29f0c0dc4cfea3621f6d326021ad"
   ],
   "HistoryCleanup": {},
-  "Icon": "icon-notepad",
+  "Icon": "icon-application-error color-red",
   "Thumbnail": "folder.png",
   "Permissions": {
     "AllowedChildContentTypes": []
