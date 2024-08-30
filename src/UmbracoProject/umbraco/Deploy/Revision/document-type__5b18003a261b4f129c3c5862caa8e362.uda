@@ -8,6 +8,7 @@
   "HistoryCleanup": {},
   "Icon": "icon-home",
   "Thumbnail": "folder.png",
+  "Description": "Homepage description",
   "Permissions": {
     "AllowedAtRoot": true,
     "AllowedChildContentTypes": [
